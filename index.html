@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Timer App</title>
+
+<link rel="stylesheet" href="./style.css">
+
+
+</head>
+<body>
+  
+  
+    <div style="border-radius: 20px;padding-top: 20px; padding-bottom: 20px; width: 50%;;margin-top: 05%;">
+  <h1 style="color:#a0effe ;;padding-bottom: 20px;font-size: 48px; text-decoration: underline;letter-spacing: 10px; margin-left:80px ;"><b>Timer App</b></h1>
+  <label for="time" style="color:#a0effe;margin-left:-5% ; font-size: 20px; ">Enter time in seconds:</label> <br>
+  <input type="number" id="time" min="1" step="1" required>
+  <div id="timer">00:00:00</div>
+  <button onclick="startTimer()">Start Timer</button>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>

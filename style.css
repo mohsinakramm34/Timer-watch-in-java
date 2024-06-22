@@ -1,0 +1,39 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background-image: url(./pic/istockphoto-1393709868-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* background-position: 200%; */
+  }
+  input[type="number"] {
+    padding: 8px;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-left: -30px;
+    color: #031c3e;
+    border-radius: 20px;
+    overflow: hidden;
+    /* border-color: black; */
+  }
+  button {
+    background-color: #031c3e;
+    width: 350px;
+    height: 8vh;
+    font-size: 16px;
+    border-radius: 15px;
+    margin-left: 150px;
+    margin-top: 10%;
+    color:   #a0effe;
+    border: 2px solid #a0effe;
+}
+
+  #timer {
+    font-size: 48px;
+    margin-top: -7%;
+    margin-left: 70%;
+    color:#a0effe;
+    
+  }
